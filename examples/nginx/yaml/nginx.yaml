@@ -35,7 +35,8 @@ spec:
     spec:
       containers:
       - name: nginx-test
-        image: ccr.ccs.tencentyun.com/shuhe/nginx:stable
+        #image: ccr.ccs.tencentyun.com/shuhe/nginx:stable
+        image: nginx:stable
         ports:
         - containerPort: 80
         volumeMounts:
