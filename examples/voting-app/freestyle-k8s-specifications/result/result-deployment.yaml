@@ -15,7 +15,7 @@ spec:
         app: result
     spec:
       containers:
-      - image: examplevotingapp_result:before
+      - image: dockersamples/examplevotingapp_result:before
         #image: dockersamples/examplevotingapp_result:before
         name: result-e2e
         ports:
