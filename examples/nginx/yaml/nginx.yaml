@@ -37,13 +37,6 @@ spec:
       - name: nginx-test
         #image: ccr.ccs.tencentyun.com/shuhe/nginx:stable
         image: nginx:stable
-        resources:
-          requests:
-            cpu: 500m
-            memory: 256Mi
-          limits:
-            cpu: 1000m
-            memory: 512Mi
         ports:
         - containerPort: 80
         volumeMounts:
