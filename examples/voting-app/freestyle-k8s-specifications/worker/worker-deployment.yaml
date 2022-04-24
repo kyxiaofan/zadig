@@ -15,6 +15,6 @@ spec:
         app: worker
     spec:
       containers:
-      - image: examplevotingapp_worker
+      - image: registry.cn-qingdao.aliyuncs.com/ky-zadig/examplevotingapp_worker:latest
         #image: dockersamples/examplevotingapp_worker
         name: worker-e2e
